@@ -1,4 +1,4 @@
-#! /bin/env sh
+#! /usr/bin/env sh
 
 if [ $(tmux display-message -p '#P') -eq 1 ]; then
     if [ $(tmux display-message -p '#{window_zoomed_flag}') -eq 0 ]; then

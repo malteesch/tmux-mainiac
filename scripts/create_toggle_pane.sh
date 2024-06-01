@@ -1,4 +1,4 @@
-#! /bin/env sh
+#! /usr/bin/env sh
 
 num_panes=$(tmux list-panes | wc -l)
 if [[ $num_panes -eq 1 ]]; then
